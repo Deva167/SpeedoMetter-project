@@ -1,0 +1,64 @@
+.container {
+    background-color:  #07080c;
+    height:100vh;
+    width:40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (min-width:768px) {
+    .container {
+        width:100vh;
+
+    }
+}
+
+
+.heading {
+    color: aliceblue;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 15px;
+    margin:10px;
+    text-align: center;
+
+}
+
+
+.image {
+    height:30vh;
+    width:30vh;
+
+}
+
+.para-speed {
+    font-size: 10px;
+    color:aqua;
+}
+
+.min-para {
+    color:azure;
+    font-size: 10px;
+
+}
+
+.button-1 {
+    background-color: blue;
+    border-width: 0px;
+    border-radius: 5px;
+    padding: 10px;
+    color:aliceblue
+
+}
+
+.button-2 {
+    background-color:transparent;
+    border-width: 0px;
+    border-radius: 5px;
+    padding: 10px;
+    color:aliceblue
+
+}
+
